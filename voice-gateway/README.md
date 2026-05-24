@@ -26,6 +26,8 @@ PSTN Caller → Telnyx → WebSocket → voice-gateway
 cd voice-gateway
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
+# Patch webrtcvad for modern setuptools:
+python patch_webrtcvad.py
 ```
 
 ### 2. Configure environment

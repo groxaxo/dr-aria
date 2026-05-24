@@ -235,6 +235,7 @@ if [[ -d "${VOICE_GW_DIR}" ]]; then
         cd ${VOICE_GW_DIR}
         uv venv --python 3.11 .venv 2>&1 | tail -2
         uv pip install -r requirements.txt --quiet 2>&1 | tail -5
+        .venv/bin/python patch_webrtcvad.py
     "
     success "Voice gateway installed"
 
