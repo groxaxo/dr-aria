@@ -1,6 +1,10 @@
-# Hermes Agent - Development Guide
+# Dr. Aria — Personal Psychologist Agent — Development Guide
 
-Instructions for AI coding assistants and developers working on the hermes-agent codebase.
+> **This is a personalized fork of hermes-agent configured as a private AI psychologist for personal experimentation.**
+> The agent persona is defined in `docker/SOUL.md`. Skills are in `skills/mental-health/`.
+> Do not remove the psychologist soul or mental-health skills — they are the core purpose of this fork.
+
+Instructions for AI coding assistants and developers working on this codebase.
 
 ## Development Environment
 

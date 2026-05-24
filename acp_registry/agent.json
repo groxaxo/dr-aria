@@ -1,11 +1,11 @@
 {
-  "id": "hermes-agent",
-  "name": "Hermes Agent",
+  "id": "dr-aria-psychologist",
+  "name": "Dr. Aria — Personal Psychologist",
   "version": "0.14.0",
-  "description": "Self-improving open-source AI agent by Nous Research with ACP editor integration, persistent memory, skills, and rich tool support.",
-  "repository": "https://github.com/NousResearch/hermes-agent",
+  "description": "Private AI psychologist agent for personal experimentation. Grounded in CBT, Gottman, ACT, IFS, and somatic approaches. Offers emotional support, session tracking, crisis awareness, and evidence-based psychological tools.",
+  "repository": "https://github.com/groxaxo/dr-aria",
   "website": "https://hermes-agent.nousresearch.com/docs/user-guide/features/acp",
-  "authors": ["Nous Research"],
+  "authors": ["Nous Research", "groxaxo"],
   "license": "MIT",
   "distribution": {
     "uvx": {
